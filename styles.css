@@ -1,0 +1,33 @@
+#divGeographical {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#divGeographical circle {
+    fill: black;
+}
+
+#divGeographical .title {
+    font-size: 25px;
+    text-anchor: middle;
+}
+
+#divGeographical .datetext {
+    font-size: 19px;
+    text-anchor: middle;
+}
+
+#divGeographical .borough {
+    stroke: black;
+    stroke-width: 0.5px;
+}
+
+#divGeographical #slider {
+    box-shadow: 10px;
+}
+
+#divGeographical #slider input[type='range'] {
+    width: 610px;
+    height: 8px;
+    background: black;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rat Sightings | Data Visualisation</title>
+        <script src='https://d3js.org/d3.v7.min.js'></script>
+        <link rel='stylesheet' href='styles.css'>
+        <link rel='stylesheet' href='Chronological/styles.css'>
+        <link rel='shortcut icon' href='./Icons/rat.png'>
+    </head>
+    <body>
+        <div id='header'></div></div>
+        <div id='divChronological' style='display: inline-block'>
+            <div id='checkboxRadial'></div>
+            <div id='tooltip'></div>
+            <svg width='600' height='600' style='border: 5px solid lightgrey' id='svgChronological'></svg>
+            <div class='info'></div>
+        </div>
+        <div id='divGeographical' style='display: inline-block'>
+            <div id='views'></div>
+            <div id='slider' hidden></div>
+            <svg width='600' height='600' style='border: 5px solid lightgrey' id='svgGeographical'></svg>
+            <div class='info'></div>
+        </div>
+        <script src='main.js' type='module'></script>
+        <script src='Chronological/main.js' type='module'></script>
+    </body>
+</html>
